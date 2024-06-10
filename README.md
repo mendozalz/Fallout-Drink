@@ -4,7 +4,7 @@
 | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="public/readme.gif" alt="Portal" /> | <img src="public/readme.gif" alt="ilaptop 3d" /> |
 
-Ver en [Netlify](https://laptop-portafolio-threejs.netlify.app/)
+Ver en [Netlify](https://fallout-drink.netlify.app/)
 
 ## 🚀 Fallout Fans
 
