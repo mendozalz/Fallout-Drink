@@ -29,7 +29,7 @@ const Content = () => {
         <div className={"labels_container"}>
           <div className={"labels_wrapper"}>
             {cards.map((card) => (
-              <div id={card.id} key={card.id} className={"label_card label_card--hidden"}>
+              <div id={card.id} key={card.id} className={"label_card label_card-small label_card--hidden"}>
                 <div>
                   <h1 className={"text_header"}>{card.title}</h1>
                   <p className={"text_subheader"}>{card.subheader}</p>

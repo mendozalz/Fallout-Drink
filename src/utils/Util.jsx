@@ -60,6 +60,9 @@ export const LoadAnimations = (
   brandMaterial,
   textures
 ) => {
+  const isTablet = window.innerWidth >= 768 && window.innerWidth <= 1024;
+  const isMobile = window.innerWidth <= 600;
+
   const Animations = [
     // Animación inicial - Pagina 0
     {
@@ -178,11 +181,12 @@ export const LoadAnimations = (
       },
     },
     //   Quantum Cola - Pagina #2
+
     {
       target: scene.getObjectByName("BottleGroup").position,
       pointTime: 4,
       animationsProperties: {
-        x: -2,
+        x: isTablet ? -1 :(isMobile ? -1.3 : -2),
         onUpdate: () => {},
       },
     },

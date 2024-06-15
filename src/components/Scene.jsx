@@ -1,4 +1,4 @@
-import { Environment, OrbitControls, ScrollControls } from '@react-three/drei'
+import { Environment, ScrollControls } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import React from 'react'
 import { Bottle } from './Bottle'
